@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		2E5F3F272968935B00678F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F262968935B00678F0C /* AppDelegate.swift */; };
 		2E5F3F292968935B00678F0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F282968935B00678F0C /* SceneDelegate.swift */; };
-		2E5F3F2B2968935B00678F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F2A2968935B00678F0C /* ViewController.swift */; };
+		2E5F3F2B2968935B00678F0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F2A2968935B00678F0C /* LoginViewController.swift */; };
 		2E5F3F2E2968935B00678F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F3F2C2968935B00678F0C /* Main.storyboard */; };
 		2E5F3F302968935D00678F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F3F2F2968935D00678F0C /* Assets.xcassets */; };
 		2E5F3F332968935D00678F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F3F312968935D00678F0C /* LaunchScreen.storyboard */; };
+		2E5F3F3F2968BAB400678F0C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F3E2968BAB400678F0C /* NetworkError.swift */; };
+		2E5F3F412968BAC000678F0C /* AuthenticationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F402968BAC000678F0C /* AuthenticationError.swift */; };
+		2E5F3F432968BAC900678F0C /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F422968BAC900678F0C /* RegisterModel.swift */; };
+		2E5F3F452968BB0E00678F0C /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F442968BB0E00678F0C /* LoginModel.swift */; };
+		2E5F3F4B2968BC5700678F0C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F4A2968BC5700678F0C /* API.swift */; };
+		2E5F3F4D2968BCED00678F0C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F4C2968BCED00678F0C /* UserService.swift */; };
+		2E5F3F502968C31200678F0C /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F4F2968C31200678F0C /* LoginResponse.swift */; };
+		2E5F3F542968C97400678F0C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F532968C97400678F0C /* RegisterViewController.swift */; };
+		2E5F3F562968CA8C00678F0C /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F3F552968CA8C00678F0C /* RegisterResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E5F3F232968935B00678F0C /* ToDoList-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDoList-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5F3F262968935B00678F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E5F3F282968935B00678F0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E5F3F2A2968935B00678F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E5F3F2A2968935B00678F0C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2E5F3F2D2968935B00678F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E5F3F2F2968935D00678F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E5F3F322968935D00678F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E5F3F342968935D00678F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5F3F3E2968BAB400678F0C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		2E5F3F402968BAC000678F0C /* AuthenticationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationError.swift; sourceTree = "<group>"; };
+		2E5F3F422968BAC900678F0C /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		2E5F3F442968BB0E00678F0C /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		2E5F3F4A2968BC5700678F0C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2E5F3F4C2968BCED00678F0C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2E5F3F4F2968C31200678F0C /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		2E5F3F532968C97400678F0C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2E5F3F552968CA8C00678F0C /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,80 @@
 		2E5F3F252968935B00678F0C /* ToDoList-MVC */ = {
 			isa = PBXGroup;
 			children = (
+				2E5F3F4E2968BE9700678F0C /* Delegates */,
+				2E5F3F492968BC3700678F0C /* Utilities */,
+				2E5F3F462968BC0000678F0C /* Services */,
+				2E5F3F3D2968B01F00678F0C /* ViewControllers */,
+				2E5F3F3C2968B01800678F0C /* Models */,
+				2E5F3F3B2968B01100678F0C /* Responses */,
+				2E5F3F3A2968B00800678F0C /* Errors */,
 				2E5F3F262968935B00678F0C /* AppDelegate.swift */,
 				2E5F3F282968935B00678F0C /* SceneDelegate.swift */,
-				2E5F3F2A2968935B00678F0C /* ViewController.swift */,
 				2E5F3F2C2968935B00678F0C /* Main.storyboard */,
 				2E5F3F2F2968935D00678F0C /* Assets.xcassets */,
 				2E5F3F312968935D00678F0C /* LaunchScreen.storyboard */,
 				2E5F3F342968935D00678F0C /* Info.plist */,
 			);
 			path = "ToDoList-MVC";
+			sourceTree = "<group>";
+		};
+		2E5F3F3A2968B00800678F0C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F3F3E2968BAB400678F0C /* NetworkError.swift */,
+				2E5F3F402968BAC000678F0C /* AuthenticationError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		2E5F3F3B2968B01100678F0C /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F3F4F2968C31200678F0C /* LoginResponse.swift */,
+				2E5F3F552968CA8C00678F0C /* RegisterResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2E5F3F3C2968B01800678F0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F3F422968BAC900678F0C /* RegisterModel.swift */,
+				2E5F3F442968BB0E00678F0C /* LoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E5F3F3D2968B01F00678F0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F3F2A2968935B00678F0C /* LoginViewController.swift */,
+				2E5F3F532968C97400678F0C /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2E5F3F462968BC0000678F0C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F3F4C2968BCED00678F0C /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2E5F3F492968BC3700678F0C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F3F4A2968BC5700678F0C /* API.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2E5F3F4E2968BE9700678F0C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +221,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5F3F2B2968935B00678F0C /* ViewController.swift in Sources */,
+				2E5F3F2B2968935B00678F0C /* LoginViewController.swift in Sources */,
+				2E5F3F542968C97400678F0C /* RegisterViewController.swift in Sources */,
+				2E5F3F452968BB0E00678F0C /* LoginModel.swift in Sources */,
+				2E5F3F4D2968BCED00678F0C /* UserService.swift in Sources */,
+				2E5F3F3F2968BAB400678F0C /* NetworkError.swift in Sources */,
+				2E5F3F502968C31200678F0C /* LoginResponse.swift in Sources */,
+				2E5F3F432968BAC900678F0C /* RegisterModel.swift in Sources */,
 				2E5F3F272968935B00678F0C /* AppDelegate.swift in Sources */,
+				2E5F3F412968BAC000678F0C /* AuthenticationError.swift in Sources */,
+				2E5F3F562968CA8C00678F0C /* RegisterResponse.swift in Sources */,
 				2E5F3F292968935B00678F0C /* SceneDelegate.swift in Sources */,
+				2E5F3F4B2968BC5700678F0C /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
